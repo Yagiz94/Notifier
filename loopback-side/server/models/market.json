@@ -1,0 +1,29 @@
+{
+  "name": "Market",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "add_date": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "itemsList": {
+      "type": "embedsMany",
+      "model": "Item",
+      "foreignKey": "ItemId",
+      "options": {
+        "nestRemoting": true,
+        "forceId": false,
+        "validate": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

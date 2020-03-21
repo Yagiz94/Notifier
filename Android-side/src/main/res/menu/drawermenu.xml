@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/db" android:title="Check-Ins" android:icon="@drawable/checkin"/>
+  <item android:id="@+id/Map" android:title="Map" android:icon="@drawable/map"/>
+  <item android:id="@+id/market" android:title="Market" android:icon="@drawable/market"/>
+  <item android:id="@+id/profile" android:title="Profile" android:icon="@drawable/profile"/>
+  <item android:id="@+id/my_items" android:title="My Items" android:icon="@drawable/myitems"/>
+  <item android:id="@+id/logout" android:title="Logout" android:icon="@drawable/logout"/>
+
+</menu>
